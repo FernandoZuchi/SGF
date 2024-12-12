@@ -1,0 +1,15 @@
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\CamadaDeDados.dll.config
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\CamadaDeDados.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\CamadaDeDados.pdb
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\EntityFramework.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\EntityFramework.xml
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.csproj.AssemblyReference.cache
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDe.E84BB42B.Up2Date
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.pdb
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.Migrations.InitialCreate.resources
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.csproj.GenerateResource.cache
+C:\Users\Fernando Zuchi\Desktop\CamadaDeDados\obj\Debug\CamadaDeDados.Migrations.AtualizacaoModeloFuncionario.resources

@@ -1,0 +1,15 @@
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeNegocios.dll.config
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeNegocios.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeNegocios.pdb
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeDados.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\EntityFramework.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeDados.pdb
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\CamadaDeDados.dll.config
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\EntityFramework.xml
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\obj\Debug\CamadaDeNegocios.csproj.AssemblyReference.cache
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\obj\Debug\CamadaDeNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\obj\Debug\CamadaDe.059DED5E.Up2Date
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\obj\Debug\CamadaDeNegocios.dll
+C:\Users\Fernando Zuchi\Desktop\CamadaDeNegocios\obj\Debug\CamadaDeNegocios.pdb

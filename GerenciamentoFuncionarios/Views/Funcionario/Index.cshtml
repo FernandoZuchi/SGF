@@ -1,0 +1,34 @@
+﻿@model IEnumerable<CamadaDeDados.Funcionario>
+
+<h2 class="mb-4">Listagem de Funcionários</h2>
+
+<div class="table-responsive">
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Genero</td>
+                <td>Cidade</td>
+                <td>Salario</td>
+                <td>Data de Nascimento</td>
+                <td>Ações</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var func in Model)
+            {
+                <tr>
+                    <td>@func.Nome</td>
+                    <td>@func.Genero</td>
+                    <td>@func.Cidade</td>
+                    <td>@func.Salario</td>
+                    <td>@func.DataNascimento</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = func.FuncionarioId }, new { @class = "btn btn-warning btn-sm" })
+                        @Html.ActionLink("Delete", "Delete", new { id = func.FuncionarioId }, new { @class = "btn btn-danger btn-sm" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

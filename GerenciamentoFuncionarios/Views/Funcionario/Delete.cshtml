@@ -1,0 +1,29 @@
+﻿@model CamadaDeDados.Funcionario
+
+<div class="container mt-5">
+    <h2 class="text-danger">Confirmação da Exclusão</h2>
+    <p>Tem certeza que deseja remover este funcionário?</p>
+
+    <dl class="row">
+        <dt class="col-sm-3">Nome</dt>
+        <dd class="col-sm-9">@Model.Nome</dd>
+
+        <dt class="col-sm-3">Gênero</dt>
+        <dd class="col-sm-9">@Model.Genero</dd>
+
+        <dt class="col-sm-3">Cidade</dt>
+        <dd class="col-sm-9">@Model.Cidade</dd>
+
+        <dt class="col-sm-3">Salário</dt>
+        <dd class="col-sm-9">@Model.Salario.ToString()</dd>
+
+        <dt class="col-sm-3">Data de Nascimento</dt>
+        <dd class="col-sm-9">@Model.DataNascimento</dd>
+    </dl>
+
+    @using (Html.BeginForm("DeleteConfirmed", "Funcionario", new { id = Model.FuncionarioId }))
+    {
+        <button type="submit" class="btn btn-danger">Excluir</button>
+        @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary"})
+    }
+</div>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários - Treinamento ASP.NET MVC</title>
+    <link href="~/Content/Site.css" rel="stylesheet"/>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- Barra Lateral -->
+    <div class="d-flex">
+        <nav class="bg-dark text-white p-3" style="width: 250px; min-height: 100vh;">
+            <h4>SGF</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="/Funcionario/Index" class="nav-link text-white @(ViewBag.ActivePage == "Index" ? "active" : "") ">Funcionarios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/Funcionario/Create" class="nav-link text-white @(ViewBag.ActivePage == "Create" ? "active" : "") ">Cadastrar Funcionario</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <div class="flex-grow-1 p-4 bg-light">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Sistema de Gerenciamento de Funcionário - Treinamento ASP.NET MVC</p>
+            </footer>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
